@@ -3,7 +3,7 @@ package main
 import "github.com/01-edu/z01"
 
 func PrintStr(s string) {
-  for _, s := range s {
-    z01.PrintRune(s)
+  for _, r := range s {
+    z01.PrintRune(r)
     }
   }
